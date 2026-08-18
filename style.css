@@ -118,28 +118,51 @@ main {
   margin: 0 0 10px 0;
 }
 
-.hero p {
-  font-family: "Segoe UI", sans-serif;
-  font-size: 15px;
-  margin-bottom: 30px;
-}
-
-.hero-btn {
+.button {
   display: inline-block;
   padding: 14px 32px;
   background-color: #ac9b9b;
   color: #ffffff;
+  border: none;
   border-radius: 6px;
+  cursor: pointer;
   text-decoration: none;
   font-family: "Segoe UI", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-
   transition: transform 0.1s ease-in-out;
 }
 
-.hero-btn:hover {
+.button:hover {
   transform: translateY(1px);
+}
+
+.form label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#name {
+  width: 98%;
+  max-width: 328px;
+}
+
+#email {
+  width: 97%;
+  max-width: 324px;
+}
+
+#subject {
+  width: 100%;
+  max-width: 334px;
+}
+
+#message {
+  width: 100%;
+  max-width: 386px;
+  box-sizing: boder-box;
 }
 
 .collage {

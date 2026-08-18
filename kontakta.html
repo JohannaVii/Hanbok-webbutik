@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakta oss</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="index.html">Hanbok</a></h1>
+      <p class="underrubrik">En traditionell koreansk dräkt</p>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="bestall.html">Beställ</a></li>
+          <li><a href="kontakta.html">Kontakta oss</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="page-title">Kontakta oss</h1>
+
+      <section class="page-content">
+        <p>
+          Veritatis quis, velit consequatur tenetur quo, natus iusto dolor
+          minima nam odit quas laboriosam, voluptatibus at ipsa minus temporibus
+          commodi reprehenderit distinction.
+        </p>
+        <br />
+
+        <form action="#" method="post">
+          <div class="form">
+            <label for="name">Namn:</label><input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form">
+            <label for="subject">Ämne:</label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Välj alternativ nedan</option>
+              <option value="general">Allmänt</option>
+              <option value="order">Om beställningen och leverans</option>
+              <option value="custom">Frågor om storlek och passform</option>
+              <option value="other">Övrigt</option>
+            </select>
+          </div>
+          <br />
+
+          <div class="form">
+            <label for="message">Meddelande:</label>
+            <br />
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="50"
+              required
+            ></textarea>
+          </div>
+
+          <div class="privacy-info">
+            <p>
+              Molestias consectetur ea eos totam illum incidunt.
+            </p>
+            <div class="privacy-info">
+              <input type="checkbox" id="privacy" name="privacy" required />
+            <label for="privacy">
+            Adipisicing elit <a href="privacy"></a>
+            </label>
+            <br>
+            <br>
+
+              <button type="submit" class="button">Skicka meddelande</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Hanbok webbutik</p>
+      <a href="privacy.html"></a>
+      <a href="kopinfo.html"></a>
+    </footer>
+  </body>
+</html>
