@@ -98,6 +98,13 @@ main {
   font-size: 1.05rem;
 }
 
+.page-content h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  margin-top: 24px;
+  line-height: 1.2;
+}
+
 .hero {
   padding: 80px 20px;
   text-align: center;
@@ -162,7 +169,33 @@ main {
 #message {
   width: 100%;
   max-width: 386px;
-  box-sizing: boder-box;
+  box-sizing: border-box;
+}
+
+.privacy-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.privacy-label {
+  min-width: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.fake-input {
+  width: 328px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  color: #333;
 }
 
 .collage {
